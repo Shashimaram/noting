@@ -1,0 +1,83 @@
+{
+    "data transfer": {
+        "awsCost": 55.49853433080001,
+        "usageAmount": {
+            "GB": 101379.81373278023
+        },
+        "ociCost": 23.58181624761786,
+        "ociUnitCost": 0.0085
+    },
+    "intellegent tiering storage - infrequent": {
+        "awsCost": 13820.782500185,
+        "usageAmount": {
+            "GB-Mo": 657198.9068,
+            "Gigabyte Month": 2.838570404
+        },
+        "ociCost": 6572.01745370404,
+        "ociUnitCost": 0.01
+    },
+    "requests": {
+        "awsCost": 46635.06591606,
+        "usageAmount": {
+            "Requests": 47269196511
+        },
+        "ociCost": 16071.526813740003,
+        "ociUnitCost": 0.0034
+    },
+    "infrequent access - infrequent": {
+        "awsCost": 2805.382847,
+        "usageAmount": {
+            "GB-Mo": 224430.6277
+        },
+        "ociCost": 2244.306277,
+        "ociUnitCost": 0.01
+    },
+    "tags": {
+        "awsCost": 0.000340801,
+        "usageAmount": {
+            "Tag-Mo": 340.8
+        },
+        "ociCost": 0,
+        "ociUnitCost": 0
+    },
+    "standard storage - standard": {
+        "awsCost": 0.0197224238,
+        "usageAmount": {
+            "GB-Mo": 0.4906597806
+        },
+        "ociCost": 0.0125118244053,
+        "ociUnitCost": 0.0255
+    },
+    "glacier deeparchival storage - Archive": {
+        "awsCost": 9e-09,
+        "usageAmount": {
+            "GB-Mo": 9.351e-06
+        },
+        "ociCost": 2.43126e-08,
+        "ociUnitCost": 0.0026
+    },
+    "glacier instant retrival storage - Archive": {
+        "awsCost": 1259.29169,
+        "usageAmount": {
+            "GB-Mo": 314822.9224
+        },
+        "ociCost": 818.5395982399999,
+        "ociUnitCost": 0.0026
+    },
+    "Others": {
+        "awsCost": 0,
+        "usageAmount": {
+            "Bucket-Mo": 62.33055605
+        },
+        "ociCost": 0,
+        "ociUnitCost": 0
+    },
+    "NO pricing for Number of objects listed": {
+        "awsCost": 3.12e-07,
+        "usageAmount": {
+            "Objects": 120
+        },
+        "ociCost": 0,
+        "ociUnitCost": 0
+    }
+}
