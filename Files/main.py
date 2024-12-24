@@ -12,8 +12,6 @@ path =r"C:\Users\ShashidharReddyMaram\Downloads\extracted_data_multiple_sheets.x
 
 ws = openpyxl.load_workbook(path)
 
-# workbook= ws.active
-
 print(ws.sheetnames)
 
 for sheet in ws.sheetnames:
@@ -34,7 +32,7 @@ for sheet in ws.sheetnames:
             paramountS3.process()
         except Exception as e:
             print(f"error {e} at {sheet}")
-    
+
     if sheet == 'AWSQueueService':
         try:
         # continue
